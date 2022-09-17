@@ -491,3 +491,99 @@
 2022-09-17 09:58:25.406 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
 2022-09-17 09:58:25.412 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
 2022-09-17 09:58:25.413 [main] INFO  com.snakeladder.App - Rolling a die player get : 2
+2022-09-17 10:11:49.479 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:11:49.483 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:11:49.484 [main] INFO  com.snakeladder.App - Rolling a die player get : 3
+2022-09-17 10:11:49.486 [main] INFO  com.snakeladder.App - 1
+2022-09-17 10:11:53.571 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:11:53.574 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:11:53.576 [main] INFO  com.snakeladder.App - Rolling a die player get : 1
+2022-09-17 10:11:53.577 [main] INFO  com.snakeladder.App - 1
+2022-09-17 10:11:55.230 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:11:55.233 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:11:55.234 [main] INFO  com.snakeladder.App - Rolling a die player get : 2
+2022-09-17 10:11:55.236 [main] INFO  com.snakeladder.App - 2
+2022-09-17 10:11:57.180 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:11:57.183 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:11:57.184 [main] INFO  com.snakeladder.App - Rolling a die player get : 6
+2022-09-17 10:11:57.186 [main] INFO  com.snakeladder.App - 0
+2022-09-17 10:18:51.356 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:18:51.369 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:18:51.372 [main] INFO  com.snakeladder.App - Rolling a die player get : 1
+2022-09-17 10:18:51.374 [main] INFO  com.snakeladder.App - 6
+2022-09-17 10:19:39.652 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:19:39.656 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:19:39.657 [main] INFO  com.snakeladder.App - Rolling a die player get : 5
+2022-09-17 10:19:39.658 [main] INFO  com.snakeladder.App - 5
+2022-09-17 10:19:51.000 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:19:51.009 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:19:51.012 [main] INFO  com.snakeladder.App - Rolling a die player get : 2
+2022-09-17 10:19:51.016 [main] INFO  com.snakeladder.App - -2
+2022-09-17 10:19:56.552 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:19:56.555 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:19:56.556 [main] INFO  com.snakeladder.App - Rolling a die player get : 3
+2022-09-17 10:19:56.558 [main] INFO  com.snakeladder.App - 3
+2022-09-17 10:20:05.473 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:20:05.476 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:20:05.477 [main] INFO  com.snakeladder.App - Rolling a die player get : 4
+2022-09-17 10:20:05.478 [main] INFO  com.snakeladder.App - -4
+2022-09-17 10:20:10.146 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:20:10.150 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:20:10.151 [main] INFO  com.snakeladder.App - Rolling a die player get : 2
+2022-09-17 10:20:10.152 [main] INFO  com.snakeladder.App - 2
+2022-09-17 10:20:15.668 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:20:15.671 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:20:15.672 [main] INFO  com.snakeladder.App - Rolling a die player get : 5
+2022-09-17 10:20:15.674 [main] INFO  com.snakeladder.App - -5
+2022-09-17 10:20:20.258 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:20:20.261 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:20:20.262 [main] INFO  com.snakeladder.App - Rolling a die player get : 1
+2022-09-17 10:20:20.263 [main] INFO  com.snakeladder.App - 1
+2022-09-17 10:20:23.995 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:20:23.999 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:20:24.000 [main] INFO  com.snakeladder.App - Rolling a die player get : 6
+2022-09-17 10:20:24.001 [main] INFO  com.snakeladder.App - 6
+2022-09-17 10:20:27.377 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:20:27.396 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:20:27.397 [main] INFO  com.snakeladder.App - Rolling a die player get : 4
+2022-09-17 10:20:27.398 [main] INFO  com.snakeladder.App - 0
+2022-09-17 10:23:27.970 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:23:27.985 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:23:27.991 [main] INFO  com.snakeladder.App - Rolling a die player get : 2
+2022-09-17 10:23:27.993 [main] INFO  com.snakeladder.App - 0
+2022-09-17 10:26:23.565 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:26:23.568 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:26:23.569 [main] INFO  com.snakeladder.App - Rolling a die player get : 3
+2022-09-17 10:26:23.571 [main] INFO  com.snakeladder.App - 0
+2022-09-17 10:26:29.335 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:26:29.338 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:26:29.340 [main] INFO  com.snakeladder.App - Rolling a die player get : 5
+2022-09-17 10:26:29.341 [main] INFO  com.snakeladder.App - 0
+2022-09-17 10:26:35.257 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:26:35.261 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:26:35.262 [main] INFO  com.snakeladder.App - Rolling a die player get : 1
+2022-09-17 10:26:35.263 [main] INFO  com.snakeladder.App - 1
+2022-09-17 10:26:39.876 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:26:39.876 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:26:39.889 [main] INFO  com.snakeladder.App - Rolling a die player get : 5
+2022-09-17 10:26:39.891 [main] INFO  com.snakeladder.App - 5
+2022-09-17 10:27:41.001 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:27:41.005 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:27:41.006 [main] INFO  com.snakeladder.App - Rolling a die player get : 1
+2022-09-17 10:27:41.008 [main] INFO  com.snakeladder.App - After Checking options NoPlay/ Ladder/ Snake player position is: 0
+2022-09-17 10:27:50.063 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:27:50.067 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:27:50.068 [main] INFO  com.snakeladder.App - Rolling a die player get : 5
+2022-09-17 10:27:50.068 [main] INFO  com.snakeladder.App - After Checking options NoPlay/ Ladder/ Snake player position is: 0
+2022-09-17 10:27:53.063 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:27:53.066 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:27:53.067 [main] INFO  com.snakeladder.App - Rolling a die player get : 3
+2022-09-17 10:27:53.068 [main] INFO  com.snakeladder.App - After Checking options NoPlay/ Ladder/ Snake player position is: 0
+2022-09-17 10:27:55.822 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:27:55.822 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:27:55.831 [main] INFO  com.snakeladder.App - Rolling a die player get : 1
+2022-09-17 10:27:55.832 [main] INFO  com.snakeladder.App - After Checking options NoPlay/ Ladder/ Snake player position is: 0
+2022-09-17 10:27:57.902 [main] INFO  com.snakeladder.App - Welcome Snake & Ladder Program!
+2022-09-17 10:27:57.905 [main] INFO  com.snakeladder.App - Intitial Player position is : 0
+2022-09-17 10:27:57.906 [main] INFO  com.snakeladder.App - Rolling a die player get : 3
+2022-09-17 10:27:57.907 [main] INFO  com.snakeladder.App - After Checking options NoPlay/ Ladder/ Snake player position is: 3
