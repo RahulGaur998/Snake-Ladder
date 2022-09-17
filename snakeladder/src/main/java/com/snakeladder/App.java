@@ -41,14 +41,18 @@ class Player {
     }
 
     void play(Player playerObj) { // play method expects a playerObject and works accordingly
-        while (playerObj.getPlayerPosition() < 100) { // play until player position becomes 100
-            logger.info("Intitial Player position is : " + playerObj.getPlayerPosition());
+        while (playerObj.getPlayerPosition() != 100 && playerObj.playerPosition < 100) { // play until player position
+                                                                                         // becomes 100
+
             int dieValue = playerObj.playerRollsDie();
             logger.info("Rolling a die player get : " + dieValue);
             logger.info(
                     "After Checking options NoPlay/ Ladder/ Snake player position is: "
                             + playerObj.checkOption(dieValue));
-            if (playerObj.getPlayerPosition() == 100) {
+            if (playerObj.getPlayerPosition() > 100) { // if playerPosition goes beyond 100 decrement to previous value
+                                                       // by subtracting with die value
+                playerObj.setPlayerPosition(playerObj.getPlayerPosition() - dieValue);
+            } else if (playerObj.getPlayerPosition() == 100) {// if playerPosition is 100 print player Wins
                 logger.info("Player Wins!!! Player position is :" + playerObj.getPlayerPosition());
             }
         }
@@ -65,7 +69,7 @@ public class App {
     public static void main(String[] args) {
         Player playerObj = new Player();
         logger.info("Welcome Snake & Ladder Program!");
+        logger.info("Intitial Player position is : " + playerObj.getPlayerPosition());
         playerObj.play(playerObj);
-
     }
 }
