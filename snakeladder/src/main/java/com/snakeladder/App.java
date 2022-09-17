@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 class Player {
-    int playerPosition;
+    private int playerPosition;
 
     public int getPlayerPosition() { // getter to get playerPosition value
         return playerPosition;
@@ -24,11 +24,12 @@ class Player {
             case 0: // if option generates 0 do nothing
                 break;
             case 1:
-                setPlayerPosition(playerPosition + dieValue); // if option generates 1 add dieValue to playerPosition
+                setPlayerPosition(getPlayerPosition() + dieValue); // if option generates 1 add dieValue to
+                                                                   // playerPosition
                 break;
             case 2:
                 playerPosition = playerPosition - dieValue; // if option generates 2 minus dievalue from playerPosition
-                if (playerPosition < 0) {
+                if (getPlayerPosition() < 0) {
                     setPlayerPosition(0); // if player position goes below zero assign 0 to playerPosition
                 } else {
                     setPlayerPosition(playerPosition); // else setPlayer position
@@ -49,10 +50,18 @@ public class App {
     public static void main(String[] args) {
         Player playerObj = new Player();
         logger.info("Welcome Snake & Ladder Program!");
-        logger.info("Intitial Player position is : " + playerObj.getPlayerPosition());
-        int dieValue = playerObj.playerRollsDie();
-        logger.info("Rolling a die player get : " + dieValue);
-        logger.info(
-                "After Checking options NoPlay/ Ladder/ Snake player position is: " + playerObj.checkOption(dieValue));
+
+        while (playerObj.getPlayerPosition() < 100) { // play until player position becomes 100
+            logger.info("Intitial Player position is : " + playerObj.getPlayerPosition());
+            int dieValue = playerObj.playerRollsDie();
+            logger.info("Rolling a die player get : " + dieValue);
+            logger.info(
+                    "After Checking options NoPlay/ Ladder/ Snake player position is: "
+                            + playerObj.checkOption(dieValue));
+            if (playerObj.getPlayerPosition() == 100) {
+                logger.info("Player Wins!!! Player position is :" + playerObj.getPlayerPosition());
+            }
+        }
+
     }
 }
