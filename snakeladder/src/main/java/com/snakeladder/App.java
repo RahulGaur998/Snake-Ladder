@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 class Player {
+    private static final Logger logger = LogManager.getLogger(App.class);
     private int playerPosition;
 
     public int getPlayerPosition() { // getter to get playerPosition value
@@ -39,18 +40,7 @@ class Player {
         return playerPosition; // return player position
     }
 
-    Player() { // constructor to initialize playerPosition as zero
-        playerPosition = 0;
-    }
-}
-
-public class App {
-    private static final Logger logger = LogManager.getLogger(App.class);
-
-    public static void main(String[] args) {
-        Player playerObj = new Player();
-        logger.info("Welcome Snake & Ladder Program!");
-
+    void play(Player playerObj) { // play method expects a playerObject and works accordingly
         while (playerObj.getPlayerPosition() < 100) { // play until player position becomes 100
             logger.info("Intitial Player position is : " + playerObj.getPlayerPosition());
             int dieValue = playerObj.playerRollsDie();
@@ -62,6 +52,20 @@ public class App {
                 logger.info("Player Wins!!! Player position is :" + playerObj.getPlayerPosition());
             }
         }
+    }
+
+    Player() { // constructor to initialize playerPosition as zero
+        playerPosition = 0;
+    }
+}
+
+public class App {
+    private static final Logger logger = LogManager.getLogger(App.class);
+
+    public static void main(String[] args) {
+        Player playerObj = new Player();
+        logger.info("Welcome Snake & Ladder Program!");
+        playerObj.play(playerObj);
 
     }
 }
