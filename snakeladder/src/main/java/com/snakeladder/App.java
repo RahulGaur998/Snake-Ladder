@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 class Player {
     private static final Logger logger = LogManager.getLogger(App.class);
     private int playerPosition;
+    int numberOfRolls = 0;
 
     public int getPlayerPosition() { // getter to get playerPosition value
         return playerPosition;
@@ -16,6 +17,7 @@ class Player {
     }
 
     int playerRollsDie() {
+        numberOfRolls += 1;
         return (int) Math.floor(Math.random() * (6 - 1 + 1) + 1); // playerRollsDie to get value between 1-6
     }
 
@@ -54,6 +56,7 @@ class Player {
                 playerObj.setPlayerPosition(playerObj.getPlayerPosition() - dieValue);
             } else if (playerObj.getPlayerPosition() == 100) {// if playerPosition is 100 print player Wins
                 logger.info("Player Wins!!! Player position is :" + playerObj.getPlayerPosition());
+                logger.info("Total Number of rolls is: " + playerObj.numberOfRolls);// display total number of die rolls
             }
         }
     }
