@@ -114,7 +114,8 @@ public class App {
         Player playerObj2 = new Player();
         PlayWith2Players play = new PlayWith2Players();
         logger.info("Welcome Snake & Ladder Program!");
-        logger.info("Intitial Player position is : " + playerObj.getPlayerPosition());
+        logger.info("Intitial Player 1 position is : " + playerObj.getPlayerPosition());
+        logger.info("Intitial Player 2 position is : " + playerObj2.getPlayerPosition());
         play.playWith2Players(playerObj, playerObj2);
     }
 
